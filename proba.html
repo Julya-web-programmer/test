@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt@-10..0&display=swap" rel="stylesheet">
+    <title>Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin:0;">
+    <div class="menu">
+        <button class="menu-item" id = "ButtonPO" onclick="myFunctionClick('Программное обеспечение')">Программное обеспечение</button>
+        <button class="menu-item active" id = "ButtonPAK" onclick="myFunctionClick('Программно-аппаратные комплексы')">Программно-аппаратные комплексы</button>
+    </div>
+    <div class = "activerec" id = "activerec">
+        <p class="label">Активные записи</p>
+        <p class="number" id="dynamicNumber">54321</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

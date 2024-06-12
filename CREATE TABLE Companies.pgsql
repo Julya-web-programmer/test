@@ -1,0 +1,6 @@
+CREATE TABLE Companies (
+    company_id INT NOT NULL GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    company_name VARCHAR(250) NOT NULL,
+    region VARCHAR(250) NOT NULL,
+    sphere VARCHAR(250) NOT NULL
+);
